@@ -1,0 +1,256 @@
+{
+  "teams": [
+    {
+      "name": "Layout",
+      "products": [
+        {
+          "name": "Core"
+          "components": [
+            "Layout*",
+            "Widget*",
+            "CSS Parsing and Computation"
+            "Style System (CSS)",
+            "SVG",
+            "Internationalization",
+            "MathML"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Media",
+      "products": [
+        {
+          "name": "Core",
+          "components": [
+            "WebRTC*",
+            "Audio/Video*",
+            "Web Audio"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "products": [
+        {
+          "name": "Core",
+          "components": [
+            "javascript*",
+            "Nanojit"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DOM",
+      "products": [
+        {
+          "name": "Core",
+          "components": [
+            "DOM*",
+            "xp toolkit*",
+            "Document Navigation",
+            "Drag and Drop",
+            "Editor",
+            "Event Handling",
+            "HTML: Form Submission",
+            "HTML: Parser",
+            "RDF",
+            "Security",
+            "Security: CAPS",
+            "Selection",
+            "Serializers",
+            "Spelling checker",
+            "Web Services",
+            "XBL",
+            "XForms",
+            "XML",
+            "XPConnect",
+            "XSLT",
+            "XUL"
+        }
+      ]      
+    },
+    {
+      "name": "GFX",
+      "products": [
+        {
+          "name": "Core",
+          "components": [
+            "GFX*",
+            "canvas*",
+            "Graphics*",
+            "Graphics",
+            "Image: Painting",
+            "ImageLib"       
+          ]
+        }
+      ]      
+    },
+    {
+      "name": "Frontend",
+      "products": [
+        {
+          "name": "Firefox"
+        },
+        {
+          "name": "Firefox for Metro"
+        },
+        {
+          "name": "Toolkit"
+        },
+        {
+          "name": "Core",
+          "products": [
+            "Form Manager",
+            "History: Global",
+            "Identity",
+            "Installer: XPInstall Engine",
+            "Security: UI",
+            "Keyboard: Navigation"
+          ]
+        }
+      ]      
+    },
+    {
+      "name": "Networking",
+      "products": [
+        {
+          "name": "Core",
+          "components": [
+            "networking*"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mail",
+      "products": [
+        {
+          "name": "MailNews Core"
+        },
+        {
+          "name": "Thunderbird"
+        },
+        {
+          "name": "Core",
+          "products": [
+            "mail*"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "products": [
+        {
+          "name": "Core",
+          "components": [
+            "DMD",
+            "File Handling",
+            "General",
+            "Geolocation",
+            "IPC",
+            "Java: OJI",
+            "jemalloc",
+            "js-ctypes",
+            "Memory Allocator",
+            "mfbt",
+            "mozglue",
+            "Permission Manager",
+            "Preferences: Backend",
+            "String",
+            "XPCOM",
+            "MFBT",
+            "Disability Access APIs",
+            "Rewriting and Analysis"       
+          ]
+        },
+        {
+          "name": "Embedding*"
+        },
+        {
+          "name": "HAL"
+        }
+      ]      
+    },
+    {
+      "name": "Crypto",
+      "products": [
+        {
+          "name": "JSS",
+        },
+        {
+          "name": "NSS"
+        },
+        {
+          "name": "NSPR"
+        },
+        {
+          "name": "Core",
+          "products": [
+            "Security: PSM",
+            "Security: S/MIME"
+          ]
+        }
+      ]      
+    },
+    {
+      "name": "Services",
+      "products": [
+        {
+          "name": "Cloud Services"
+        }
+        {
+          "name": "Mozilla Services"
+        }
+      ]
+    },
+    {
+      "name": "Plugins",
+      "products": [
+        {
+          "name": "Plugins"
+        },
+        {
+          "name": "External Software Affecting Firefox"
+        },
+        {
+          "name": "Core",
+          "components": [
+            "Plug-ins"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Boot2Gecko",
+      "products": [
+        {
+          "name": "Firefox OS"
+        },
+        {
+          "name": "Boot2Gecko"
+        }
+      ]
+    },
+    {
+      "name": "Mobile",
+      "products": [
+        {
+          "name": "Fennec Graveyard"
+        },
+        {
+          "name": "Firefox for*"
+        },
+        {
+          "name": "Android Background Services"
+        },
+        {
+          "name": "Focus*"
+        }
+      ]
+    }
+  ];
+}
