@@ -4,7 +4,7 @@
       "name": "Layout",
       "products": [
         {
-          "name": "Core"
+          "name": "Core",
           "components": [
             "Layout*",
             "Widget*",
@@ -69,7 +69,7 @@
             "XPConnect",
             "XSLT",
             "XUL"
-        }
+        ]
       ]      
     },
     {
